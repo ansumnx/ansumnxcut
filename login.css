@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+/* #headd {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#heading{
+    width: 100%;
+    text-align: center;
+}
+
+#startheading{
+    color: beige;
+    font-size: 2vw;
+    text-align:center;
+    font-weight: 900;
+    
+}
+#headingname {
+  font-size: 3vw;
+  font-weight: 900;
+  color: beige;
+}
+#headingname #namespan{
+    color: crimson;
+    font-size: 30vw;
+} */
+
+#admin {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 20px;
+  padding-bottom: 0;
+}
+#adminbtn,
+#userbtn {
+  padding: 6px 25px;
+  font-size: 15px;
+  color: antiquewhite;
+  background-color: transparent;
+  border: 3px solid crimson;
+  border-radius: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#adminbtn:hover {
+  background-color: crimson;
+}
+#userbtn:hover {
+  background-color: crimson;
+}
+
+#logindiv {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginheading {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 1vw;
+  color: crimson;
+}
+#username {
+  color: crimson;
+  font-weight: bold;
+  font-size: 15px;
+}
+#signin input {
+  border-radius: 5px;
+  text-align: start;
+  padding: 13px 45px;
+  margin: 10px 0px;
+  outline: none;
+  border: 3px solid rgba(250, 235, 215, 0.829);
+  background-color: transparent;
+  color: crimson;
+}
+#password {
+  color: crimson;
+  font-weight: bold;
+  font-size: 15px;
+}
+#showpswd {
+  position: relative;
+  right: 40px;
+  cursor: pointer;
+  color: crimson;
+  display: none;
+}
+#hidepswd {
+  position: relative;
+  right: 40px;
+  cursor: pointer;
+  color: crimson;
+}
+
+#erroruser {
+  color: crimson;
+  position: relative;
+  cursor: pointer;
+  right: 40px;
+  display: none;
+}
+#errorpswd {
+  color: crimson;
+  position: relative;
+  cursor: pointer;
+  right: 40px;
+  display: none;
+}
+
+#signin input:hover {
+  border: 3px solid crimson;
+}
+/* 
+#rem #Remember {
+  width: 20px;
+  border: 1px solid crimson;
+}
+#rem-para {
+  display: inline;
+  color: aliceblue;
+} */
+#button {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  padding: 8px 60px;
+  font-size: 15px;
+  color: crimson;
+  background-color: transparent;
+  border: 3px solid crimson;
+  border-radius: 7px;
+  transition: 0.7s;
+}
+#btn:hover {
+  color: antiquewhite;
+  background-color: crimson;
+}
+
+#lost {
+  text-align: center;
+}
+#lost-para {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(58, 58, 170);
+  transition: 1s;
+}
+#lost-para:hover {
+  color: crimson;
+}
+
+#last-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+a {
+  text-decoration: none;
+}
+#Terms {
+  color: antiquewhite;
+  font-size: 14px;
+  text-align: center;
+}
+#last-para span {
+  text-decoration: underline;
+  color: rgb(58, 58, 170);
+  transition: 0.7s;
+}
+#last-para span:hover {
+  color: crimson;
+}
+
+@media screen and (max-width: 580px) {
+  #main {
+    overflow: hidden;
+
+  }
+  #adminbtn {
+    font-size: 12px;
+    padding: 6px 20px;
+  }
+
+  #logindiv {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+
+  #headingname {
+    font-size: 8vw;
+  }
+
+  #namespan {
+    font-size: 25vw;
+  }
+
+  #loginheading {
+    font-size: 20px;
+  }
+
+  #username,
+  #password {
+    font-size: 12px;
+  }
+
+  #signin input {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  #btn {
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+  #Terms {
+    font-size: 12px;
+  }
+
+  #last-para {
+    margin: 20px 0;
+  }
+}
