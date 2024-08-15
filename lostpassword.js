@@ -14,7 +14,7 @@ function recover() {
       document.getElementById("username").value = "";
       logo.style.display = "none";
       lost("");
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }, 2000);
   }
   if (username) {

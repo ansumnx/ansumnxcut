@@ -2,7 +2,7 @@
 
 
 document.getElementById("userbtn").onclick = () => {
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 };
 
 
