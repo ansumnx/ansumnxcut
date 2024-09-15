@@ -164,10 +164,6 @@
   }
   
   @media screen and (max-width: 580px) {
-    #main {
-      overflow: hidden;
-  
-    }
     #adminbtn {
       font-size: 12px;
       padding: 6px 20px;
