@@ -4,45 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: black;
-}
 #main {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
-/* #headd {
-  width: 50vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-#heading{
-    width: 100%;
-    text-align: center;
-}
-
-#startheading{
-    color: beige;
-    font-size: 2vw;
-    text-align:center;
-    font-weight: 900;
-    
-}
-#headingname {
-  font-size: 3vw;
-  font-weight: 900;
-  color: beige;
-}
-#headingname #namespan{
-    color: crimson;
-    font-size: 30vw;
-} */
-
 #admin {
   width: 100vw;
   display: flex;
@@ -51,8 +17,7 @@ body {
   padding: 10px 20px;
   padding-bottom: 0;
 }
-#adminbtn,
-#userbtn {
+#adminbtn {
   padding: 6px 25px;
   font-size: 15px;
   color: antiquewhite;
@@ -136,15 +101,6 @@ body {
 #signin input:hover {
   border: 3px solid crimson;
 }
-/* 
-#rem #Remember {
-  width: 20px;
-  border: 1px solid crimson;
-}
-#rem-para {
-  display: inline;
-  color: aliceblue;
-} */
 #button {
   margin: 15px;
   display: flex;
@@ -204,10 +160,6 @@ a {
 }
 
 @media screen and (max-width: 580px) {
-  #main {
-    overflow: hidden;
-
-  }
   #adminbtn {
     font-size: 12px;
     padding: 6px 20px;
@@ -217,7 +169,6 @@ a {
     width: 100%;
     height: 100vh;
     padding: 20px;
-    background-color: rgb(0, 0, 0);
     overflow: hidden;
   }
 
