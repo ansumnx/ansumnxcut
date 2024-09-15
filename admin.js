@@ -73,3 +73,9 @@ show.addEventListener("click", function () {
 function lostpassword() {
     window.location.href = "lostpswd.html";
   }
+
+  window.addEventListener("load", function () {
+    document.getElementById("user").value = "";
+    document.getElementById("pwd").value = "";
+    
+  });
