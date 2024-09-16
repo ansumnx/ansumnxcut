@@ -68,8 +68,14 @@ td{
 }
 
 @media screen and (max-width:580px) {
+
+    #show-data{
+
+padding: 10px 40px;
+
+    }
     #list{
-        padding: 10px 50px;
+        padding: 10px 20px;
     }
     #list:hover{
         letter-spacing: 5px;
